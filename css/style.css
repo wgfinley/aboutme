@@ -1,0 +1,102 @@
+body {
+  /* Typography Declarations */
+  color: #222222;
+  font-size: 1em;
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.masthead-heading,
+.masthead-intro,
+.content-footer {
+  text-align: center;
+}
+
+.masthead {
+  padding: 6em 0;
+  border-top: solid 1em #88AAD9;
+  background-image: url("https://farm8.staticflickr.com/7101/13242784224_e2ceef2866_b_d.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+
+.masthead-intro {
+  margin-top: 0.1em;
+  font-family: "Gentium Book Basic", Georgia, serif;
+  font-size: 2em;
+  color: #3F5757;
+}
+
+.masthead-heading {
+  margin-top: -0.2em;
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
+  color: #F0DEC2;
+  font-weight: bold;
+  font-size: 6em;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  text-shadow: 3px 2px 1px #3F5757;
+}
+
+.intro-section > p,
+.loc-section > p,
+.content-footer > p {
+  /* Typography Declarations */
+  font-weight: 300;
+  letter-spacing: 0.05em;
+}
+
+.footer-text,
+.intro-section,
+.loc-section,
+.qa-section {
+  max-width: 38em;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2em;  
+}
+
+.social > li {
+  display: inline-block;
+  padding: 0 1em 0 0;
+}
+
+.content-footer > p {
+  color: white;
+}
+
+.content-footer {
+  /* Red, Green, Blue: #RRGGBB */
+  background-color: #3F5757;
+  margin-top: 5em;
+  padding: 4em 0;
+}
+ .qa-section > h2 {
+  /* Typography Declarations */
+   font-family: "Gentium Book Basic", Georgia, serif;
+   font-size: 1.2em;
+   font-weight: bold;
+   color: #88A8D9;
+}
+
+a:link{
+  color: #88AAD9;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:visited {
+  color: #BED7F4;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  color: #F0DEC2;
+  text-decoration: none;
+}
+
+a:active {
+  color: #3F5757;
+  text-dectoration: none;
+}
