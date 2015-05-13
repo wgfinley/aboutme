@@ -98,5 +98,34 @@ a:hover {
 
 a:active {
   color: #3F5757;
-  text-dectoration: none;
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 500px) {
+  .masthead {
+      padding: 3em 0;
+  }
+    .masthead-heading {
+      font-size: 3em;
+  }
+    .intro-section > p,
+    .loc-section > p,
+    .qa-section > p {
+        padding: 0 1.5em;
+        font-size: 1em;
+  }
+    .intro-section > h1,
+    .loc-section > h1,
+    .qa-section > h1 {
+        padding: 0 1em;
+        font-size: 1.25em;
+  }
+    .qa-section > h2 {
+        padding: 0 1em;
+        font-size: 1.25em;
+  }
+    .footer-text {
+      padding: 0 1.5em;
+      font-size: 1em;
+  }
 }
